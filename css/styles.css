@@ -1,0 +1,28 @@
+
+body {
+    background-color: #F9F7F7;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #DBE2EF;
+    background-color:none;
+    border-width: 20px;
+    height: 0px;
+    width: 5%;
+}
+img {
+    border-radius: 100%;
+}
+h1, 
+h2,
+h3 {
+    color: #112D4E;
+    font: 32px/42px trajan-pro-1,trajan-pro-2;
+}
+p {
+    color: #112D4E;
+    font: trajan-pro-1,trajan-pro-2;
+}
