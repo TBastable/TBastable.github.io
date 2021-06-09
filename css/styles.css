@@ -1,28 +1,56 @@
-
 body {
-    background-color:  #f1faeeff;
-
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #f1faeeff;
-    background-color:none;
-    border-width: 20px;
-    height: 0px;
-    width: 5%;
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
 }
-img {
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+    background-color: #f7fbfc;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #d6e6f2;
+}
+
+.bottom-container {
+    background-color: #b9d7ea;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.profile-pic {
     border-radius: 100%;
 }
-h1, 
-h2,
-h3 {
-    color: #1d3557ff;
-    font: 32px/42px trajan-pro-1,trajan-pro-2;
-}
-p {
-    color: #1d3557ff;
-    font: trajan-pro-1,trajan-pro-2;
+
+.skill {
+    height: 70px;
+    width: auto;
 }
